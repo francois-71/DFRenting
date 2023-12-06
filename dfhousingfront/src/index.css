@@ -1,0 +1,35 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--app-background-color) !important;
+  color: var(--text-color) !important;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --text-color: rgb(148 163 184);
+  --h3-color: rgb(223, 236, 255);
+  --brown: rgba(153, 76, 0, 0.8);
+  --h5-color: rgb(223, 236, 255);
+  --p-color: rgb(148 163 184);
+  --h1-color: rgb(223, 236, 255);
+  --h6-color: rgb(223, 236, 255);
+  --header-text-color: rgb(223, 236, 255);
+  --arrow-color: rgb(45, 212, 191);
+  --arrow-color2: rgb(94 234 212);
+  --button-background-color: rgba(45, 212, 191, 0.1);
+  --button-background-color-hover: rgba(45, 212, 191, 0.2);
+  --button-color: rgb(94 234 212);
+  --explore-my-project-color: rgb(94 234 212);
+  --app-background-color: rgb(15 23 42);
+  --header-button-focus-color: rgb(94 234 212);
+}

@@ -1,0 +1,128 @@
+/* CSS */
+
+/* Style for the main container */
+.adminpanel-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-access-denied{
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Title styles */
+.adminpanel-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.adminpanel-title h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+/* Properties section styles */
+.adminpanel-properties {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.adminpanel-properties h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* List item styles */
+.adminpanel-properties-list-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.adminpanel-properties-list-item-hostname,
+.adminpanel-properties-list-item-propertyname,
+.adminpanel-properties-list-item-location,
+.adminpanel-properties-list-item-price,
+.adminpanel-properties-list-item-bedrooms,
+.adminpanel-properties-list-item-bathrooms,
+.adminpanel-properties-list-item-type,
+.adminpanel-properties-list-item-description,
+.adminpanel-properties-list-item-rules,
+.adminpanel-properties-list-item-cancellation,
+.adminpanel-properties-list-item-date,
+.adminpanel-properties-list-item-city,
+.adminpanel-properties-list-item-country,
+.adminpanel-properties-list-item-state,
+.adminpanel-properties-list-item-zip {
+  margin-bottom: 20px;
+}
+
+.adminpanel-properties-list-item-hostname h3,
+.adminpanel-properties-list-item-propertyname h3,
+.adminpanel-properties-list-item-location h3,
+.adminpanel-properties-list-item-price h3,
+.adminpanel-properties-list-item-bedrooms h3,
+.adminpanel-properties-list-item-bathrooms h3,
+.adminpanel-properties-list-item-type h3,
+.adminpanel-properties-list-item-description h3,
+.adminpanel-properties-list-item-rules h3,
+.adminpanel-properties-list-item-cancellation h3,
+.adminpanel-properties-list-item-date h3,
+.adminpanel-properties-list-item-city h3,
+.adminpanel-properties-list-item-country h3,
+.adminpanel-properties-list-item-state h3,
+.adminpanel-properties-list-item-zip h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Image styles */
+.adminpanel-properties-list-item-image img {
+  width: 300px; /* Set the width to 300px */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: block; /* Ensures no extra space below the image */
+}
+
+/* Buttons styles */
+.adminpanel-properties-list-item-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adminpanel-properties-list-item-buttons button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.adminpanel-properties-list-item-buttons
+  button.adminpanel-properties-list-item-buttons-approve {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.adminpanel-properties-list-item-buttons
+  button.adminpanel-properties-list-item-buttons-reject {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.adminpanel-properties-list-item-buttons button:hover {
+  opacity: 0.8;
+}

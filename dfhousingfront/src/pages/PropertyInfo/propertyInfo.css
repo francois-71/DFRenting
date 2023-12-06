@@ -1,0 +1,49 @@
+/* propertyInfo.css */
+
+.property-details {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  background: black;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.property-details-name{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.property-details h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.property-details p {
+  margin-bottom: 10px;
+}
+
+.property-details h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.property-details ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.property-details img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.property-details-image{
+  width: 30%;
+  margin: 0 auto;
+}

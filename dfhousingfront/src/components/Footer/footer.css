@@ -1,0 +1,29 @@
+.footer-content{
+    text-align: center;
+    padding-top: 30px;
+    /* stick bottom*/
+}
+.social-links {
+    padding-bottom: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    font-size: 25px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgba(148,163, 184, 0.2) !important;
+}
+
+.github-logo:hover {
+    color: #e8eaea !important;
+}
+
+.linkedin-logo:hover {
+    color: #0077B5 !important;
+}
+
+.footer-text{
+   padding-bottom: 15px;
+    color: rgba(148,163, 184, 0.2) !important;
+}

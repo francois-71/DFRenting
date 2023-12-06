@@ -1,0 +1,57 @@
+/* property.css */
+
+/* Container holding the property card */
+
+/* Styles for the property card */
+.property-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 350px;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.property-card-link{
+  text-decoration: none;
+  width: 300px !important;
+  color: black;
+  padding: 0 !important;
+  margin: 0
+}
+
+.property-card-image {
+  background-color: var(--app-background-color);
+  height: 200px;
+  width: 100%;
+}
+
+.property-card-container {
+  width: 100%;
+}
+
+/* Property image styling */
+.property-card-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Property info styling */
+.property-card-info {
+  padding-left: 10px;
+  padding-top: 5px;
+  color: black;
+}
+
+.property-card-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.property-card-info p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}

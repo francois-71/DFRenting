@@ -1,0 +1,42 @@
+/* formbox.css */
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--title-color) !important;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--arrow-color) !important;
+    color: white;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: var(--button-background-color-hover) !important;
+}
